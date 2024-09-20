@@ -1,0 +1,20 @@
+{
+    "name": "Ønsk utvidelse",
+    "version": "0.1.0",
+    "description": "Lagre ønsker i en ønskeliste",
+    "permissions": ["activeTab", "tabs", "cookies", "storage"],
+    "host_permissions": ["*://*.onsk.no/"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "128": "assets/onsk-logo-128.png",
+        "48": "assets/onsk-logo-48.png",
+        "16": "assets/onsk-logo-16.png"
+      },
+      "default_title": "Ønsk Utvidelse",
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 3
+  }

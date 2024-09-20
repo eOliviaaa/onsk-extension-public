@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="popup.css" rel="stylesheet" type="text/css">
+    <script type="module" src="popup.js"></script>
+    
+    <meta charset="UTF-8">
+    <title>Ønsk Utvidelse</title>
+</head>
+<body>
+    <header>
+        <img src="assets/onsk-logo-name.png" alt="Hånd som viser et ønske tegn ved å krysse fingrene med tekst på siden som sier 'ØNSK'">
+    </header>
+    <main id="content">
+        <form class="container">
+            <label for="website">Lenke</label>
+            <div class="group">
+                <img src="assets/Globe.svg" alt="En logo som ser ut som en globe">
+                <input id="website" type="text" aria-label="input field for current website">
+            </div>
+
+            <label for="wish-lists">Ønskeliste</label>
+            <div class="group">
+                <img src="assets/Gift-closed.svg" alt="Ikon av en lukket gave">
+                <select id="wish-lists" aria-label="select field for wish-lists"></select>
+            </div>
+            
+            <button id="btn-add-wish" type="button">Legg til</button>
+
+            <div id="success">
+                <p>Ønsket er lagt til listen på onsk.no</p>
+                <img src="assets/Party 1.svg" alt="">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
